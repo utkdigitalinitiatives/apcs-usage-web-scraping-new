@@ -7,6 +7,7 @@ def CompBiol(startDate, endDate):
     import pandas as pd
     import time
     import re
+    import getpass
 
     vendorURL = 'https://sitemaster.journals.biologists.com/admin/login.aspx'
 
@@ -246,6 +247,7 @@ def CompBiol(startDate, endDate):
         keyboard = input('TR_J3 downloading. When you are done, type anything here to close the browser.')
 
 
+    driver.close()
 
 def CompBiol_Info():
     print('Keys needed:')
