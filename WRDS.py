@@ -20,7 +20,7 @@ def WRDS():
     driver = webdriver.Edge()
 
     username = getpass.getpass('Enter the Username Here:')
-    password = getpass.getpass('Enter the Password Here:')
+    password = getpass.getpass('Enter the Password Here:')
     
 
     print("WARNING: This code function requires two-factor authentication via Alexander's phone. If Alexander is not running this code, you will need to let him know you are running this before doing so. Otherwise, the code will not work.")
@@ -41,7 +41,7 @@ def WRDS():
 
     print('Pausing for two-factor authentication...')
 
-    time.sleep(15)
+    time.sleep(25)
     
     
     # Go to WRDS REP TOOLS
